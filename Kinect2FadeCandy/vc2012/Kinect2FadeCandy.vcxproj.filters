@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{ac5039ca-1ec2-410a-823e-e8fe5f85fbce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-Kinect2">
+      <UniqueIdentifier>{3a17163e-7486-4b3c-9225-ab389885a0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-Kinect2\src">
+      <UniqueIdentifier>{ee3da296-aafd-41ae-b4ce-7f8a2c2f9171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\FadeCandyClient">
+      <UniqueIdentifier>{3b18ab5a-63d6-419a-9a31-2c9585e178ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-ASIO">
+      <UniqueIdentifier>{6181b24b-1d5e-48c4-aa1b-be391a243e69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\Kinect2FadeCandy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\FCKinectEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\FadeCandyClient\src\FCEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\FadeCandyClient\src\FCEffectRunner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\FadeCandyClient\src\FCEffectVisualizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\FadeCandyClient\src\OPCClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\ClientInterface.h">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\DispatcherInterface.h">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\ServerInterface.h">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\SessionInterface.h">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\TcpClient.h">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\TcpServer.h">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\TcpSession.h">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\UdpClient.h">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\UdpServer.h">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\UdpSession.h">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\WaitTimer.h">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CINDER_DEV)\blocks\Cinder-Kinect2\src\Kinect2.h">
+      <Filter>Blocks\Cinder-Kinect2\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(CINDER_DEV)\blocks\FadeCandyClient\src\FCEffectRunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CINDER_DEV)\blocks\FadeCandyClient\src\FCEffectVisualizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CINDER_DEV)\blocks\FadeCandyClient\src\OPCClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\ClientInterface.cpp">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\DispatcherInterface.cpp">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\ServerInterface.cpp">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\SessionInterface.cpp">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\TcpClient.cpp">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\TcpServer.cpp">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\TcpSession.cpp">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\UdpClient.cpp">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\UdpServer.cpp">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\UdpSession.cpp">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CINDER_DEV)\blocks\Cinder-Asio\src\WaitTimer.cpp">
+      <Filter>Blocks\Cinder-ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CINDER_DEV)\blocks\Cinder-Kinect2\src\Kinect2.cpp">
+      <Filter>Blocks\Cinder-Kinect2\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

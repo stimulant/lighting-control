@@ -19,3 +19,7 @@
 *.exe
 *.out
 *.app
+Kinect2FadeCandy/vc2012/Debug/
+Kinect2FadeCandy/vc2012/Kinect2FadeCandy.sdf
+*.suo
+Kinect2FadeCandy/vc2012/x64/

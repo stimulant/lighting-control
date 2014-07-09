@@ -1,0 +1,19 @@
+{
+    "listen": [null, 7890],
+    "verbose": true,
+
+    "color": {
+        "gamma": 2.5,
+        "whitepoint": [1.0, 1.0, 1.0]
+    },
+
+    "devices": [
+        {
+            "type": "fadecandy",
+            "map": [
+                [ 0, 0, 0, 64 ],
+                [ 1, 0, 64, 64 ]
+            ]
+        }
+    ]
+}
